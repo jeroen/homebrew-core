@@ -3,8 +3,8 @@ class RobotFramework < Formula
 
   desc "Open source test framework for acceptance testing"
   homepage "https://robotframework.org/"
-  url "https://files.pythonhosted.org/packages/df/8b/b4bb3daf4e11a1b1793ff136d8eeb80a53b44581e3a4f6746274246dc876/robotframework-7.1.zip"
-  sha256 "34796d387e182b36f05d82f3bbc802bd6a30192ebf1e03c76d2086d0d04faaff"
+  url "https://files.pythonhosted.org/packages/d2/85/824b95cd3fcaf0eb6c353481b415871da4186e6414ba06a99772a48b960e/robotframework-7.1.1.zip"
+  sha256 "f85919c68c4d0837006e5f09dde1ef689f082eba2e7e64d5758753f9ee8bfea9"
   license "Apache-2.0"
   head "https://github.com/robotframework/robotframework.git", branch: "master"
 
@@ -111,8 +111,8 @@ class RobotFramework < Formula
   end
 
   resource "trio" do
-    url "https://files.pythonhosted.org/packages/9a/03/ab0e9509be0c6465e2773768ec25ee0cb8053c0b91471ab3854bbf2294b2/trio-0.26.2.tar.gz"
-    sha256 "0346c3852c15e5c7d40ea15972c4805689ef2cb8b5206f794c9c19450119f3a4"
+    url "https://files.pythonhosted.org/packages/17/d1/a83dee5be404da7afe5a71783a33b8907bacb935a6dc8c69ab785e4a3eed/trio-0.27.0.tar.gz"
+    sha256 "1dcc95ab1726b2da054afea8fd761af74bad79bd52381b84eae408e983c76831"
   end
 
   resource "trio-websocket" do
