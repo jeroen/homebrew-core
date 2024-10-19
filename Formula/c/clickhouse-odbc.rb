@@ -2,10 +2,9 @@ class ClickhouseOdbc < Formula
   desc "Official ODBC driver implementation for accessing ClickHouse as a data source"
   homepage "https://github.com/ClickHouse/clickhouse-odbc"
   # Git modules are all for bundled libraries so can use tarball without them
-  url "https://github.com/ClickHouse/clickhouse-odbc/archive/refs/tags/v1.2.1.20220905.tar.gz"
-  sha256 "ca8666cbc7af9e5d4670cd05c9515152c34543e4f45e2bc8fa94bee90d724f1b"
+  url "https://github.com/ClickHouse/clickhouse-odbc/archive/refs/tags/v1.3.0.20241018.tar.gz"
+  sha256 "2e39c4c4c68d74a133a31a1514702558cc6c2633d01abccc55d389cc22ddaf0c"
   license "Apache-2.0"
-  revision 5
   head "https://github.com/ClickHouse/clickhouse-odbc.git", branch: "master"
 
   livecheck do
